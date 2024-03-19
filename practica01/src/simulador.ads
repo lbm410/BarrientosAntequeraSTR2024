@@ -1,11 +1,11 @@
 package Simulador is
 
-   b : constant Float := 0.13;
+   b : constant Float := 0.15;
    Leq : constant Float := 15.0;
-   c : constant Float := 4.0;
-   Cp : constant Float := 9.0*2.0*6.0*10000.0;
-   p : constant Float := 4190.0;
-   H : constant Float := 975.0;
+   c : constant Float := 9.0*2.0*6.0*10000.0;
+   Cp : constant Float := 4190.0;
+   p : constant Float := 975.0;
+   H : constant Float := 4.0;
 
    function ST1_f(ST2: Float) return Float;
    function ST2_f(SR1, ST4, ST1, SC1, Tt : Float) return Float;

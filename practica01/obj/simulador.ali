@@ -8,12 +8,12 @@ RN
 RV NO_FLOATING_POINT
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U simulador%b		simulador.adb		49bdf9ee NE OO PK
+U simulador%b		simulador.adb		b9c903f4 NE OO PK
 
-U simulador%s		simulador.ads		096ef886 EE NE OO PK
+U simulador%s		simulador.ads		cc0e6e58 EE NE OO PK
 
-D simulador.ads		20240319185814 096ef886 simulador%s
-D simulador.adb		20240319194448 40d30168 simulador%b
+D simulador.ads		20240319232920 cc0e6e58 simulador%s
+D simulador.adb		20240319232712 75c76dac simulador%b
 D system.ads		20210520051136 2ffa5114 system%s
 G a e
 G c Z s b [st1_f simulador 10 13 none]
@@ -57,7 +57,7 @@ X 1 simulador.ads
 16f29 ST3{float} 2|40b29 43r55
 X 2 simulador.adb
 4f7 ST1{float} 6m7 7r14
-11f7 aux{float} 13m7 14r14
+11f7 sol{float} 13m7 14r14
 18f7 Tt{float} 20m7 21r14
 25f7 SD1{float} 27m7 28r14
 34f7 SC1{float} 36m7 37r14

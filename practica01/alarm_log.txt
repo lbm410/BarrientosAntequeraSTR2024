@@ -1,1 +1,12 @@
-
+Iteración:  4, Temperatura:  1.02128E+02ºC
+Iteración:  5, Temperatura:  1.10087E+02ºC
+Iteración:  6, Temperatura:  1.15106E+02ºC
+Iteración:  7, Temperatura:  1.16599E+02ºC
+Iteración:  8, Temperatura:  1.16810E+02ºC
+Iteración:  9, Temperatura:  1.18579E+02ºC
+Iteración:  10, Temperatura:  1.21016E+02ºC
+Iteración:  11, Temperatura:  1.22092E+02ºC
+Iteración:  12, Temperatura:  1.24303E+02ºC
+Iteración:  13, Temperatura:  1.23164E+02ºC
+Iteración:  14, Temperatura:  1.24088E+02ºC
+Iteración:  15, Temperatura:  1.20982E+02ºC

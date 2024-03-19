@@ -8,10 +8,10 @@ package body Simulador is
    end ST1_f;
 
    function ST2_f(SR1 : Float; ST4 : Float; ST1 : Float; SC1 : Float; Tt : Float) return Float is
-      aux : Float;
+      sol : Float;
    begin
-      aux := ST1 + ((b*Leq*SR1*c)/(SC1*Cp*p)) - ((H*(Tt-ST4)*c)/(SC1*Cp*p));
-      return aux;
+      sol := ST1 + ((b*Leq*SR1*c)/(SC1*Cp*p)) - ((H*(Tt-ST4)*c)/(SC1*Cp*p));
+      return sol;
    end ST2_f;
 
    function Tt_f(ST1, ST2 : Float) return Float is

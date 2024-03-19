@@ -247,10 +247,10 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\obj\simulador.o
-   --   C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\obj\main.o
-   --   -LC:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\obj\
-   --   -LC:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\obj\
+   --   C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\obj\simulador.o
+   --   C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\obj\main.o
+   --   -LC:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\obj\
+   --   -LC:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\obj\
    --   -LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
    --   -static
    --   -lgnat
