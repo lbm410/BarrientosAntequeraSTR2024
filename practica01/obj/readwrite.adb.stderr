@@ -1,10 +1,4 @@
-readwrite.adb:14:33: error: "Num" is not a visible entity of "Float_Text_IO"
-readwrite.adb:41:13: error: no candidate interpretations match the actuals:
-readwrite.adb:41:13: error: missing argument for parameter "From" in call to "get" declared at a-tiflio.ads:93, instance at a-flteio.ads:20
-readwrite.adb:41:13: error: missing argument for parameter "File" in call to "get" declared at a-tiflio.ads:52, instance at a-flteio.ads:20
-readwrite.adb:41:13: error: missing argument for parameter "File" in call to "get" declared at a-textio.ads:449
-readwrite.adb:41:13: error: missing argument for parameter "File" in call to "get" declared at a-textio.ads:376
-readwrite.adb:41:37: error: unmatched actual "Number" in call
+readwrite.adb:15:33: error: "Num" is not a visible entity of "Float_Text_IO"
 readwrite.adb:42:13: error: no candidate interpretations match the actuals:
 readwrite.adb:42:13: error: missing argument for parameter "From" in call to "get" declared at a-tiflio.ads:93, instance at a-flteio.ads:20
 readwrite.adb:42:13: error: missing argument for parameter "File" in call to "get" declared at a-tiflio.ads:52, instance at a-flteio.ads:20
@@ -23,11 +17,25 @@ readwrite.adb:44:13: error: missing argument for parameter "File" in call to "ge
 readwrite.adb:44:13: error: missing argument for parameter "File" in call to "get" declared at a-textio.ads:449
 readwrite.adb:44:13: error: missing argument for parameter "File" in call to "get" declared at a-textio.ads:376
 readwrite.adb:44:37: error: unmatched actual "Number" in call
-readwrite.adb:47:28: error: expected type "Standard.Integer"
-readwrite.adb:47:28: error: found type "Standard.Float"
-readwrite.adb:48:26: error: expected type "Standard.Integer"
-readwrite.adb:48:26: error: found type "Standard.Float"
-readwrite.adb:49:28: error: expected type "Standard.Integer"
-readwrite.adb:49:28: error: found type "Standard.Float"
+readwrite.adb:45:13: error: no candidate interpretations match the actuals:
+readwrite.adb:45:13: error: missing argument for parameter "From" in call to "get" declared at a-tiflio.ads:93, instance at a-flteio.ads:20
+readwrite.adb:45:13: error: missing argument for parameter "File" in call to "get" declared at a-tiflio.ads:52, instance at a-flteio.ads:20
+readwrite.adb:45:13: error: missing argument for parameter "File" in call to "get" declared at a-textio.ads:449
+readwrite.adb:45:13: error: missing argument for parameter "File" in call to "get" declared at a-textio.ads:376
+readwrite.adb:45:37: error: unmatched actual "Number" in call
+readwrite.adb:48:28: error: expected type "Standard.Integer"
+readwrite.adb:48:28: error: found type "Standard.Float"
+readwrite.adb:49:26: error: expected type "Standard.Integer"
+readwrite.adb:49:26: error: found type "Standard.Float"
 readwrite.adb:50:28: error: expected type "Standard.Integer"
 readwrite.adb:50:28: error: found type "Standard.Float"
+readwrite.adb:51:24: error: "SD1" is undefined
+readwrite.adb:51:24: error: possible misspelling of "SR1"
+simulador.ads:3:05: error: constant declaration requires initialization expression
+simulador.ads:4:05: error: constant declaration requires initialization expression
+simulador.ads:5:05: error: constant declaration requires initialization expression
+simulador.ads:6:05: error: constant declaration requires initialization expression
+simulador.ads:7:05: error: constant declaration requires initialization expression
+simulador.ads:8:05: error: constant declaration requires initialization expression
+simulador.ads:9:05: error: constant declaration requires initialization expression
+simulador.ads:10:05: error: constant declaration requires initialization expression

@@ -1,6 +1,7 @@
-with Ada.Text_IO; use Ada.Text_IO;
-with Ada.Float_Text_IO; use Ada.Float_Text_IO;
 with Ada.Directories; use Ada.Directories;
+with Ada.Float_Text_IO; use Ada.Float_Text_IO;
+with Ada.Text_IO; use Ada.Text_IO;
+
 with Simulador; use Simulador;
 
 package body readwrite is
@@ -52,9 +53,9 @@ package body readwrite is
             -- Verificar si hay alarma de temperatura
             if Tt_val > 98.0 then
                 -- Mostrar mensaje de alarma por pantalla
-                Put_Line("¡ALARMA! Temperatura a la salida del campo solar mayor de 98°C en la iteración " & Float'Image(K));
+                Put_Line("ALARMA! Temperatura a la salida del campo solar mayor de 98ÂºC en la iteracion " & Float'Image(K));
                 -- Escribir en el archivo de registro de alarmas
-                Put_Line(Alarm_Log, "¡ALARMA! Temperatura a la salida del campo solar mayor de 98°C en la iteración " & Float'Image(K));
+                Put_Line(Alarm_Log, "ALARMA! Temperatura a la salida del campo solar mayor de 98ÂºC en la iteracion " & Float'Image(K));
             end if;
 
             -- Escribir resultados en data.txt
