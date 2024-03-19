@@ -1,41 +1,47 @@
 package body Simulador is
-    function ST2(k: Integer; ST1k_1, SR1k, SC1k, ST4k: Float) return Float is
-    begin
-         return ST1k_1 + ((beta * Leq * SR1k * c) / (SC1k * Cp * p)) - ((H * (Tt(k, ST1k_1, ST2(k-1)) - ST4k) * c) / (SC1k * Cp * p));
-    end ST2;
 
-    function Tt(k: Integer; ST1_k_1, ST2_k_1: Float) return Float is
-    begin
-        return (ST1_k_1 + ST2_k_1) / 2.0;
-    end Tt;
+   function ST1_f(ST2 : Float) return Float is
+      ST1 : Float;
+   begin
+      ST1 := ST2 - 10.0;
+      return ST1;
+   end ST1_f;
 
-    function ST1(k: Integer; ST2_k: Float) return Float is
-    begin
-        return 10.0;
-    end ST3;
+   function ST2_f(SR1 : Float; ST4 : Float; ST1 : Float; SC1 : Float; Tt : Float) return Float is
+      aux : Float;
+   begin
+      aux := ST1 + ((b*Leq*SR1*c)/(SC1*Cp*p)) - ((H*(Tt-ST4)*c)/(SC1*Cp*p));
+      return aux;
+   end ST2_f;
 
-    function SD3(k: Integer; SD3_k_0, SD3_k_menos_uno :Float )return float is
-        begin
-            if k = 0 then
-                return 20.0;
-            else
-                if k = - 10 then
-                    return SD3( k+10 );
-                else
-                    if k < -10 then
-                        raise Constraint_Error with "Invalid value of K";
-                    else
-                        if k > 0 and k <= N then -- N es el número total de iteraciones.
-                            -- Aquí va la ecuación que calcula el valor de SD3 en función del valor actual y anterior.
-                            -- Esta ecuación puede ser cualquier cosa que tenga sentido en tu simulación.
-                            -- Por ejemplo:
-                            Return SD3( K-10 ) + Delta_T*SD3( K-10 ); -- Donde Delta_T es un parámetro de tu simulación.
-                        else
-                            raise Constraint_Error with "Invalid value of K";
-                        end if;
-                    end if;
-                end if;
-            end if;
-        End SD3;
+   function Tt_f(ST1, ST2 : Float) return Float is
+      Tt : Float;
+   begin
+      Tt := (ST1 + ST2) / 2.0;
+      return Tt;
+   end Tt_f;
+
+   function SD1_f(SC2, ST2, ST3 :Float) return is
+      SD1 : Float;
+   begin
+      SD1 := 24.0*(0.135+0.003*ST2-0.0203*ST3-0.001*SC2+0.0004*ST2*SC2);
+      return SD1;
+   end SD1_f;
+
+   -- Procedimientos Ejercicio 2
+
+   function SC1_f(SR1, Tt, ST4, ST2, ST1 : Float) return Float is
+      SC1 : Float;
+   begin
+      SC1 := (((b*Leq*SR1) - (H*(Tt - ST4)))*c) / (Cp*p*(ST2 - ST1));
+      return SC1;
+   end SC1_f;
+
+   function SC2_f(SD1, ST2, ST3 : Float) return Float is
+      SC2 : Float;
+   begin
+      SC2 := ((SD1/24.0) - 0.135 - 0.003*ST2 + 0.0203*ST3) / (0.00004*ST2 - 0.001);
+      return SC2;
+   end SC2_f;
 
 end Simulador;

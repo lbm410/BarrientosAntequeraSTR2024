@@ -1,16 +1,17 @@
 package Simulador is
-    -- Definición de constantes
-    beta : constant Float;
-    Leq : constant Float;
-    c : constant Float;
-    Cp : constant Float;
-    p : constant Float;
-    H : constant Float;
-    N : constant Integer; -- Número total de iteraciones
-    Delta_T : constant Float; -- Parámetro de simulación
 
-    function ST2(k: Integer; ST1k_1, SR1k, SC1k, ST4k: Float) return Float;
-    function Tt(k: Integer; ST1_k_1, ST2_k_1: Float) return Float;
-    function ST1(k: Integer; ST2_k: Float) return Float;
-    function SD3(k: Integer; SD3_k_0, SD3_k_menos_uno :Float )return float;
+   b : constant Float := 0.13;
+   Leq : constant Float := 15.0;
+   c : constant Float := 4.0;
+   Cp : constant Float := 9.0*2.0*6.0*10000.0;
+   p : constant Float := 4190.0;
+   H : constant Float := 975.0;
+
+   function ST1_f(ST2: Float) return Float;
+   function ST2_f(SR1: Float; ST4: Float; ST1: Float; SC1: Float; Tt: Float) return Float;
+   function Tt_f(ST1, ST2: Float) return Float;
+   function SD1_f(SC2, ST2, ST3 : Float) return Float;
+
+   function SC1_f(SR1, Tt, ST4, ST2, ST1 : Float) return Float;
+   function SC2_f(SD1, ST2, ST3 : Float) return Float;
 end Simulador;
