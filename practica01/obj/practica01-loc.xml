@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Locations >
   <Project>
-    <vfs_file />
+    <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_file>
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
       <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
@@ -10,7 +10,163 @@
       <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
       <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\readwrite.adb</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 1" line=" 1" >
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\simulador.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 18" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\simulador.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 64" line=" 15" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\simulador.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 42" line=" 11" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\simulador.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 47" line=" 24" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\simulador.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 116" >
+      <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
+      <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 14" line=" 13" >
       <vfs_project>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr</vfs_project>
       <vfs_file>C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\src\simulador.adb</vfs_file>
     </file_marker>

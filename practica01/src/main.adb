@@ -10,6 +10,7 @@ procedure Main is
    -- Archivos de texto
    input : File_Type;
    output : File_Type;
+   alarm_log : File_Type; -- Nuevo archivo para el registro de alarmas
 
    -- Temperaturas Óptimas
    ST2_Opt : Float := 82.0;
@@ -34,15 +35,18 @@ begin
    -- Creación del archivo de salida
    Create(output, Out_File, "output.txt");
 
+   -- Apertura del archivo de registro de alarmas
+   Create(alarm_log, Out_File, "alarm_log.txt");
+
    -- Encabezado para el archivo de salida
-   Put(output, "k"); Put(output, ASCII.HT); Put(output, ASCII.HT);
-   Put(output, "ST1"); Put(output, ASCII.HT); Put(output, ASCII.HT);
-   Put(output, "ST2"); Put(output, ASCII.HT); Put(output, ASCII.HT);
-   Put(output, "ST3"); Put(output, ASCII.HT); Put(output, ASCII.HT);
-   Put(output, "ST4"); Put(output, ASCII.HT); Put(output, ASCII.HT);
-   Put(output, "SC1"); Put(output, ASCII.HT); Put(output, ASCII.HT);
-   Put(output, "SC2"); Put(output, ASCII.HT); Put(output, ASCII.HT);
-   Put(output, "SR1"); Put(output, ASCII.HT); Put(output, ASCII.HT);
+   Put(output, "k"); Put(output, ASCII.HT);
+   Put(output, "ST1"); Put(output, ASCII.HT);
+   Put(output, "ST2"); Put(output, ASCII.HT);
+   Put(output, "ST3"); Put(output, ASCII.HT);
+   Put(output, "ST4"); Put(output, ASCII.HT);
+   Put(output, "SC1"); Put(output, ASCII.HT);
+   Put(output, "SC2"); Put(output, ASCII.HT);
+   Put(output, "SR1"); Put(output, ASCII.HT);
    Put(output, "SD1"); New_Line(output);
 
    -- Resultados
@@ -74,29 +78,32 @@ begin
       SD1(i) := SD1_f(SC2(0), ST2(i-1), ST3(i));
 
       -- Advertencia de seguridad
-      if ST2(i) > 93.0 then
-         Put_Line("Cuidado! ST2 tiene una temperatura de: " & ST2(i)'Img & "ºC");
+      if ST2(i) > 98.0 then
+         Put_Line("¡Cuidado! ST2 tiene una temperatura de: " & Float'Image(ST2(i)) & "ºC");
+         Put_Line("Mensaje de alarma registrado en el archivo alarm_log.txt.");
+         Put(alarm_log, "Iteración: "); Put(alarm_log, Integer'Image(i)); Put(alarm_log, ", Temperatura: "); Put(alarm_log, Float'Image(ST2(i))); Put(alarm_log, "ºC");
+         New_Line(alarm_log);
       end if;
 
-      Put(output, k); Put(output, ASCII.HT);
-      Put(output, ST1(i)); Put(output, ASCII.HT);
-      Put(output, ST2(i)); Put(output, ASCII.HT);
-      Put(output, ST3(i)); Put(output, ASCII.HT);
-      Put(output, ST4(i)); Put(output, ASCII.HT);
-      Put(output, SC1(0)); Put(output, ASCII.HT);
-      Put(output, SC2(0)); Put(output, ASCII.HT);
-      Put(output, SR1(i)); Put(output, ASCII.HT);
-      Put(output, SD1(i)); New_Line(output);
+      Put(output, Integer'Image(i)); Put(output, ASCII.HT);
+      Put(output, Float'Image(ST1(i))); Put(output, ASCII.HT);
+      Put(output, Float'Image(ST2(i))); Put(output, ASCII.HT);
+      Put(output, Float'Image(ST3(i))); Put(output, ASCII.HT);
+      Put(output, Float'Image(ST4(i))); Put(output, ASCII.HT);
+      Put(output, Float'Image(SC1(0))); Put(output, ASCII.HT);
+      Put(output, Float'Image(SC2(0))); Put(output, ASCII.HT);
+      Put(output, Float'Image(SR1(i))); Put(output, ASCII.HT);
+      Put(output, Float'Image(SD1(i))); New_Line(output);
 
-      Put(Integer(k)'Img); Put(ASCII.HT);
-      Put(ST1(i)); Put(ASCII.HT);
-      Put(ST2(i)); Put(ASCII.HT);
-      Put(ST3(i)); Put(ASCII.HT);
-      Put(ST4(i)); Put(ASCII.HT);
-      Put(SC1(0)); Put(ASCII.HT);
-      Put(SC2(0)); Put(ASCII.HT);
-      Put(SR1(i)); Put(ASCII.HT);
-      Put(SD1(i)); New_Line;
+      Put(Integer'Image(i)); Put(ASCII.HT);
+      Put(Float'Image(ST1(i))); Put(ASCII.HT);
+      Put(Float'Image(ST2(i))); Put(ASCII.HT);
+      Put(Float'Image(ST3(i))); Put(ASCII.HT);
+      Put(Float'Image(ST4(i))); Put(ASCII.HT);
+      Put(Float'Image(SC1(0))); Put(ASCII.HT);
+      Put(Float'Image(SC2(0))); Put(ASCII.HT);
+      Put(Float'Image(SR1(i))); Put(ASCII.HT);
+      Put(Float'Image(SD1(i))); New_Line;
 
       i := i + 1;
    end loop;
@@ -104,4 +111,5 @@ begin
    -- Cierre de archivos
    Close(input);
    Close(output);
+   Close(alarm_log); -- Cerrar el archivo de registro de alarmas
 end Main;
