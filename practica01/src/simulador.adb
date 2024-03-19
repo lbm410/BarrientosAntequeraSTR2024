@@ -21,7 +21,7 @@ package body Simulador is
       return Tt;
    end Tt_f;
 
-   function SD1_f(SC2, ST2, ST3 :Float) return is
+   function SD1_f(SC2, ST2, ST3 :Float) return Float is
       SD1 : Float;
    begin
       SD1 := 24.0*(0.135+0.003*ST2-0.0203*ST3-0.001*SC2+0.0004*ST2*SC2);

@@ -6,17 +6,27 @@ A -march=x86-64
 P ZX
 
 RN
+RV NO_FLOATING_POINT
 RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
 RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_OBSOLESCENT_FEATURES
 
-U main%b		main.adb		3ab6d4df NE OO SU
+U main%b		main.adb		37cc25ca NE OO SU
 W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
-W readwrite%s		readwrite.adb		readwrite.ali
+W simulador%s		simulador.adb		simulador.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.img_flt%s	s-imgflt.ads		s-imgflt.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
 
 D ada.ads		20210520051132 76789da1 ada%s
 D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-flteio.ads		20210520051128 e18a47a0 ada.float_text_io%s
 D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
 D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
 D a-string.ads		20210520051130 90ac6797 ada.strings%s
@@ -24,16 +34,25 @@ D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
 D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
 D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
 D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tiflio.ads		20210520051130 fcca4daa ada.text_io.float_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
-D main.adb		20240312162600 75765180 main%b
-D readwrite.ads		20240312153908 e1345032 readwrite%s
+D main.adb		20240319192322 71dc4f81 main%b
+D simulador.ads		20240319185814 096ef886 simulador%s
 D system.ads		20210520051136 2ffa5114 system%s
+D s-conca3.ads		20210520051132 0b705ca5 system.concat_3%s
 D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
 D s-exctab.ads		20210520051132 54135002 system.exception_table%s
 D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-imagei.ads		20210520051134 0d3f86a7 system.image_i%s
+D s-imager.ads		20210520051134 500b11a9 system.image_r%s
+D s-imageu.ads		20210520051134 525c30c6 system.image_u%s
+D s-imgflt.ads		20210520051134 78689de8 system.img_flt%s
+D s-imgint.ads		20210520051134 bdb6f5ec system.img_int%s
+D s-imguns.ads		20210520051134 0e4da2ac system.img_uns%s
 D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-powflt.ads		20210520051134 46f7a1b9 system.powten_flt%s
 D s-putima.ads		20210520051134 4e095881 system.put_images%s
 D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
 D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
@@ -46,15 +65,67 @@ D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
 D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
 D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
 G a e
-G c Z b b [main standard 4 11 none]
-G r c none [main standard 4 11 none] [simulateandwritedata readwrite 2 15 none]
+G c Z b b [main standard 5 11 none]
+G r c none [main standard 5 11 none] [tt_f simulador 12 13 none]
+G r c none [main standard 5 11 none] [st2_f simulador 11 13 none]
+G r c none [main standard 5 11 none] [st1_f simulador 10 13 none]
+G r c none [main standard 5 11 none] [sd1_f simulador 13 13 none]
 X 1 ada.ads
-16K9*Ada 20e8 13|1r6 1r23
-X 9 a-textio.ads
-58K13*Text_IO 725e16 13|1w10 1r27
-X 13 main.adb
-4U11*Main 4b11 8l5 8t9
-X 14 readwrite.ads
-1K9*readwrite 13|2w6 2r21 14|3e14
-2U15*SimulateAndWriteData 13|7s4
+16K9*Ada 20e8 15|1r6 1r23 2r6 2r29
+X 3 a-flteio.ads
+20K13*Float_Text_IO[11|46] 15|2w10 2r33
+X 10 a-textio.ads
+58K13*Text_IO 725e16 15|1w10 1r27
+65P9*File_Type 15|11r12 12r13
+67n23*In_File{67E9} 15|32r16
+67n32*Out_File{67E9} 15|35r19
+97U14*Create 15|35s4
+112U14*Open 15|32s4
+127U14*Close 15|105s4 106s4
+256U14*New_Line 15|46s24 89s28
+262U14*New_Line 15|50s4 61s16 99s20
+310V13*End_Of_File{boolean} 15|65s14
+384U14*Put 15|38s22 38s45 39s24 39s47 40s24 40s47 41s24 41s47 42s24 42s47
+. 43s24 43s47 44s24 44s47 45s24 45s47 81s23 82s28 83s28 84s28 85s28 86s28
+. 87s28 88s28
+390U14*Put 15|53s14 54s16 55s16 56s16 57s16 58s16 59s16 60s16 91s28 92s20
+. 93s31 94s20 95s20 96s20 97s20 98s20
+457U14*Put 15|38s4 39s4 40s4 41s4 42s4 43s4 44s4 45s4 46s4
+463U14*Put 15|53s4 54s4 55s4 56s4 57s4 58s4 59s4 60s4 61s4 91s7 93s7
+506U14*Put_Line 15|49s4 78s10
+X 11 a-tiflio.ads
+52U14*Get 15|66s7[3|20] 67s7[3|20] 68s7[3|20] 69s7[3|20]
+69U14*Put 15|81s7[3|20] 82s7[3|20] 83s7[3|20] 84s7[3|20] 85s7[3|20] 86s7[3|20]
+. 87s7[3|20] 88s7[3|20] 89s7[3|20]
+82U14*Put 15|92s7[3|20] 94s7[3|20] 95s7[3|20] 96s7[3|20] 97s7[3|20] 98s7[3|20]
+. 99s7[3|20]
+X 15 main.adb
+5U11*Main 5b11 107l5 107t9
+7i4 i{integer} 64m4 67r22 68r22 69r22 71r10 71r25 71r35 72r11 72r27 72r35
+. 72r43 72r60 73r11 73r27 74r11 74r35 74r45 77r14 78r67 82r23 83r23 84r23
+. 85r23 88r23 89r23 92r15 93r21 94r15 95r15 98r15 99r15 101m7 101r12
+8f4 k{float} 66m18 81r19 91r19
+11p4 input{10|65P9} 32m9 32r9 65r26 66r11 67r11 68r11 69r11 105m10 105r10
+12p4 output{10|65P9} 35m11 35r11 38r8 38r26 38r49 39r8 39r28 39r51 40r8 40r28
+. 40r51 41r8 41r28 41r51 42r8 42r28 42r51 43r8 43r28 43r51 44r8 44r28 44r51
+. 45r8 45r28 45r51 46r8 46r33 81r11 81r27 82r11 82r32 83r11 83r32 84r11 84r32
+. 85r11 85r32 86r11 86r32 87r11 87r32 88r11 88r32 89r11 89r37 106m10 106r10
+15f4 ST2_Opt{float}
+16f4 SD1_Opt{float}
+18A9 Vector(float)<integer> 19r29 20r25
+19a4 ST3{18A9} 69m18 69r18 74r41 84r19 94r11
+19a9 ST4{18A9} 68m18 68r18 72r31 85r19 95r11
+19a14 SR1{18A9} 67m18 67r18 72r23 88r19 98r11
+19a19 SD1{18A9} 74m7 89r19 99r11
+19a24 Tt{18A9} 71m7 72r57
+20a4 ST1{18A9} 28m4 71r21 72r39 73m7 82r19 92r11
+20a9 ST2{18A9} 29m4 71r31 72m7 73r23 74r31 77r10 78r63 83r19 93r17
+20a14 SC1{18A9} 24m4 72r49 86r19 96r11
+20a19 SC2{18A9} 25m4 74r23 87r19 97r11
+X 16 simulador.ads
+1K9*Simulador 15|3w6 3r21 16|17e14
+10V13*ST1_f{float} 15|73s17
+11V13*ST2_f{float} 15|72s17
+12V13*Tt_f{float} 15|71s16
+13V13*SD1_f{float} 15|74s17
 

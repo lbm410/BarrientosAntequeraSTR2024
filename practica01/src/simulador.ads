@@ -8,7 +8,7 @@ package Simulador is
    H : constant Float := 975.0;
 
    function ST1_f(ST2: Float) return Float;
-   function ST2_f(SR1: Float; ST4: Float; ST1: Float; SC1: Float; Tt: Float) return Float;
+   function ST2_f(SR1, ST4, ST1, SC1, Tt : Float) return Float;
    function Tt_f(ST1, ST2: Float) return Float;
    function SD1_f(SC2, ST2, ST3 : Float) return Float;
 
