@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr
+20240308161932 94cd0921b75be1e46f553ea84fe4e232
+[BOUND OBJECT FILES]
+C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\obj\simulador.o
+C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\obj\
+-LC:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
