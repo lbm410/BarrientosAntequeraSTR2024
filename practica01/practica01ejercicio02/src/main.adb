@@ -81,8 +81,8 @@ begin
       -- Rangos seguros
       if(SC1(i) < 7.5) then
          SC1(i) := 7.5;
-      elsif(SC1(i) > 20.0) then
-         SC1(i) := 20.0;
+      elsif(SC1(i) > 30.0) then
+         SC1(i) := 30.0;
       end if;
 
       if(SC2(i) < 400.0) then
@@ -93,7 +93,7 @@ begin
 
       -- Advertencia de seguridad
       if ST2(i) > 98.0 then
-         Put_Line("¡Cuidado! ST2 tiene una temperatura de: " & Float'Image(ST2(i)) & "ºC");
+         Put_Line("Cuidado! ST2 tiene una temperatura de: " & Float'Image(ST2(i)) & "ºC");
          Put_Line("Mensaje de alarma registrado en el archivo alarm_log.txt.");
          Put(alarm_log, "Iteracion: "); Put(alarm_log, Integer'Image(i)); Put(alarm_log, ", Temperatura: "); Put(alarm_log, Float'Image(ST2(i))); Put(alarm_log, "ºC");
          New_Line(alarm_log);
