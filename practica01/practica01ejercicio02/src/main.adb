@@ -104,8 +104,8 @@ begin
       Put(output, Float'Image(ST2(i))); Put(output, ASCII.HT);
       Put(output, Float'Image(ST3(i))); Put(output, ASCII.HT);
       Put(output, Float'Image(ST4(i))); Put(output, ASCII.HT);
-      Put(output, Float'Image(SC1(0))); Put(output, ASCII.HT);
-      Put(output, Float'Image(SC2(0))); Put(output, ASCII.HT);
+      Put(output, Float'Image(SC1(i))); Put(output, ASCII.HT);
+      Put(output, Float'Image(SC2(i))); Put(output, ASCII.HT);
       Put(output, Float'Image(SR1(i))); Put(output, ASCII.HT);
       Put(output, Float'Image(SD1(i))); New_Line(output);
 
@@ -114,8 +114,8 @@ begin
       Put(Float'Image(ST2(i))); Put(ASCII.HT);
       Put(Float'Image(ST3(i))); Put(ASCII.HT);
       Put(Float'Image(ST4(i))); Put(ASCII.HT);
-      Put(Float'Image(SC1(0))); Put(ASCII.HT);
-      Put(Float'Image(SC2(0))); Put(ASCII.HT);
+      Put(Float'Image(SC1(i))); Put(ASCII.HT);
+      Put(Float'Image(SC2(i))); Put(ASCII.HT);
       Put(Float'Image(SR1(i))); Put(ASCII.HT);
       Put(Float'Image(SD1(i))); New_Line;
 
