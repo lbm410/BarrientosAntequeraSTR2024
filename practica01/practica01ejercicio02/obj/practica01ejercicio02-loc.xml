@@ -1,49 +1,22 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project >
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio02\practica01ejercicio02.gpr</vfs_project>
-      <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio02\src\simulador.adb</vfs_file>
-    </file_marker>
+  <Project>
+    <vfs_file />
     <file_marker column=" 18" line=" 37" >
       <vfs_project>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio02\practica01ejercicio02.gpr</vfs_project>
       <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio02\src\simulador.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
+    <file_marker column=" 31" line=" 7" >
       <vfs_project>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio02\practica01ejercicio02.gpr</vfs_project>
       <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio02\src\simulador.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 18" line=" 37" >
-      <vfs_project>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio02\practica01ejercicio02.gpr</vfs_project>
-      <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio02\src\simulador.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio02\practica01ejercicio02.gpr</vfs_project>
-      <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio02\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 26" >
-      <vfs_project>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio02\practica01ejercicio02.gpr</vfs_project>
-      <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio02\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 26" >
-      <vfs_project>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio02\practica01ejercicio02.gpr</vfs_project>
-      <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio02\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 21" line=" 72" >
-      <vfs_project>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio02\practica01ejercicio02.gpr</vfs_project>
-      <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio02\src\main.adb</vfs_file>
     </file_marker>
     <file_marker column=" 46" line=" 43" >
       <vfs_project>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio02\practica01ejercicio02.gpr</vfs_project>
       <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio02\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio02\obj\b__main.o</vfs_file>
-    </file_marker>
-    <file_marker current="true" column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio02\obj\b__main.ali</vfs_file>
+    <file_marker current="true" column=" 4" line=" 3" >
+      <vfs_project>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio02\practica01ejercicio02.gpr</vfs_project>
+      <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio02\src\procesamientodatos.adb</vfs_file>
     </file_marker>
   </Project>
   <Project >
