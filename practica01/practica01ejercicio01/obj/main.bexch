@@ -1,18 +1,19 @@
 [GENERATED OBJECT FILE]
 b__main.o
 [PROJECT FILES]
-C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\practica01.gpr
-20240308161932 94cd0921b75be1e46f553ea84fe4e232
+C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio01\practica01.gpr
+20240320160720 9ace17eff4957d1849522524c822bf0f
 [BOUND OBJECT FILES]
-C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\obj\simulador.o
-C:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\obj\main.o
+C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio01\obj\simulador.o
+C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio01\obj\procesamientodatos.o
+C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio01\obj\main.o
 [GENERATED SOURCE FILES]
 b__main.ads
 b__main.adb
 b__main.ali
 [RESULTING OPTIONS]
--LC:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\obj\
--LC:\Users\kekol\Desktop\UAL\3 Curso\Sistemas de Tiempo Real\Practicas\BarrientosAntequeraSTR2024\practica01\obj\
+-LC:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio01\obj\
+-LC:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio01\obj\
 -LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
 -static
 -static-libgcc

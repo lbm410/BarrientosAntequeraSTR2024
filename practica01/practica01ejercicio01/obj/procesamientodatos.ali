@@ -1,0 +1,136 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_OBSOLESCENT_FEATURES
+
+U procesamientodatos%b	procesamientodatos.adb	94e5284d NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W simulador%s		simulador.adb		simulador.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.img_flt%s	s-imgflt.ads		s-imgflt.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+
+U procesamientodatos%s	procesamientodatos.ads	5c90892b EE NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-flteio.ads		20210520051128 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tiflio.ads		20210520051130 fcca4daa ada.text_io.float_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D procesamientodatos.ads  20240322172636 5c90892b procesamientodatos%s
+D procesamientodatos.adb  20240322172604 4b055df3 procesamientodatos%b
+D simulador.ads		20240320160720 cc0e6e58 simulador%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-conca3.ads		20210520051132 0b705ca5 system.concat_3%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-imagei.ads		20210520051134 0d3f86a7 system.image_i%s
+D s-imager.ads		20210520051134 500b11a9 system.image_r%s
+D s-imageu.ads		20210520051134 525c30c6 system.image_u%s
+D s-imgflt.ads		20210520051134 78689de8 system.img_flt%s
+D s-imgint.ads		20210520051134 bdb6f5ec system.img_int%s
+D s-imguns.ads		20210520051134 0e4da2ac system.img_uns%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-powflt.ads		20210520051134 46f7a1b9 system.powten_flt%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [procesamiento_datos procesamientodatos 11 15 none]
+G c Z s s [vectorIP procesamientodatos 8 10 none]
+G r c none [procesamiento_datos procesamientodatos 11 15 none] [tt_f simulador 12 13 none]
+G r c none [procesamiento_datos procesamientodatos 11 15 none] [st2_f simulador 11 13 none]
+G r c none [procesamiento_datos procesamientodatos 11 15 none] [st1_f simulador 10 13 none]
+G r c none [procesamiento_datos procesamientodatos 11 15 none] [sd1_f simulador 13 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 16|1r6 1r23 2r6 2r29
+X 3 a-flteio.ads
+20K13*Float_Text_IO[11|46] 16|2w10 2r33
+X 10 a-textio.ads
+58K13*Text_IO 725e16 16|1w10 1r27
+65P9*File_Type 16|12r13 13r14 14r17
+67n23*In_File{67E9} 16|30r16
+67n32*Out_File{67E9} 16|33r19 36r22
+97U14*Create 16|33s4 36s4
+112U14*Open 16|30s4
+127U14*Close 16|109s4 110s4 111s4
+256U14*New_Line 16|47s24 82s10 93s41
+262U14*New_Line 16|51s4 62s16 103s33
+310V13*End_Of_File{boolean} 16|66s14
+384U14*Put 16|39s22 40s24 41s24 42s24 43s24 44s24 45s24 46s24 85s38 86s41
+. 87s41 88s41 89s41 90s41 91s41 92s41
+390U14*Put 16|54s14 55s16 56s16 57s16 58s16 59s16 60s16 61s16 95s30 96s33
+. 97s33 98s33 99s33 100s33 101s33 102s33
+457U14*Put 16|39s4 40s4 41s4 42s4 43s4 44s4 45s4 46s4 47s4 81s10 81s41 81s75
+. 81s110 81s147 85s7 86s7 87s7 88s7 89s7 90s7 91s7 92s7 93s7
+463U14*Put 16|54s4 55s4 56s4 57s4 58s4 59s4 60s4 61s4 62s4 95s7 96s7 97s7
+. 98s7 99s7 100s7 101s7 102s7 103s7
+506U14*Put_Line 16|50s4 79s10 80s10
+X 11 a-tiflio.ads
+52U14*Get 16|67s7[3|20] 68s7[3|20] 69s7[3|20] 70s7[3|20]
+X 15 procesamientodatos.ads
+1K9*ProcesamientoDatos 13l5 13e23 16|5b14 116l5 116t23
+4f5*ST2_Opt{float}
+5f5*SD1_Opt{float}
+8A10*Vector(float)<integer> 16|16r30 17r26
+11U15*Procesamiento_Datos 16|7b14 114l8 114t27
+X 16 procesamientodatos.adb
+9i5 i{integer} 65m4 68r22 69r22 70r22 72r10 72r25 72r35 73r11 73r27 73r35
+. 73r43 73r60 74r11 74r27 75r11 75r35 75r45 78r14 79r80 81r70 81r141 85r33
+. 86r35 87r35 88r35 89r35 92r35 93r35 95r25 96r27 97r27 98r27 99r27 102r27
+. 103r27 105m7 105r12
+10f5 k{float} 67m18
+12p5 input{10|65P9} 30m9 30r9 66r26 67r11 68r11 69r11 70r11 109m10 109r10
+13p5 output{10|65P9} 33m11 33r11 39r8 39r26 40r8 40r28 41r8 41r28 42r8 42r28
+. 43r8 43r28 44r8 44r28 45r8 45r28 46r8 46r28 47r8 47r33 85r11 85r42 86r11
+. 86r45 87r11 87r45 88r11 88r45 89r11 89r45 90r11 90r45 91r11 91r45 92r11
+. 92r45 93r11 93r50 110m10 110r10
+14p5 alarm_log{10|65P9} 36m11 36r11 81r14 81r45 81r79 81r114 81r151 82r19
+. 111m10 111r10
+16a5 ST3{15|8A10} 70m18 70r18 75r41 88r31 98r23
+16a10 ST4{15|8A10} 69m18 69r18 73r31 89r31 99r23
+16a15 SR1{15|8A10} 68m18 68r18 73r23 92r31 102r23
+16a20 SD1{15|8A10} 75m7 93r31 103r23
+16a25 Tt{15|8A10} 72m7 73r57
+17a5 ST1{15|8A10} 26m4 72r21 73r39 74m7 86r31 96r23
+17a10 ST2{15|8A10} 27m4 72r31 73m7 74r23 75r31 78r10 79r76 81r137 87r31 97r23
+17a15 SC1{15|8A10} 22m4 73r49 90r31 100r23
+17a20 SC2{15|8A10} 23m4 75r23 91r31 101r23
+X 17 simulador.ads
+1K9*Simulador 16|3w6 3r21 17|17e14
+10V13*ST1_f{float} 16|74s17
+11V13*ST2_f{float} 16|73s17
+12V13*Tt_f{float} 16|72s16
+13V13*SD1_f{float} 16|75s17
+
