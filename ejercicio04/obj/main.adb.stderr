@@ -1,8 +1,0 @@
-main.adb:6:08: error: "Elemento" is not visible (more references follow)
-main.adb:6:08: error: non-visible declaration at cola.ads:3
-main.adb:13:07: error: "Poner" is not visible
-main.adb:13:07: error: non-visible declaration at cola.ads:5
-main.adb:18:10: error: "Vacia" is not visible
-main.adb:18:10: error: non-visible declaration at cola.ads:4
-main.adb:19:07: error: "Quitar" is not visible
-main.adb:19:07: error: non-visible declaration at cola.ads:6

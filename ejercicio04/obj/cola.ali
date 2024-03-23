@@ -1,0 +1,42 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U cola%b		cola.adb		59201a74 NE OO PK
+
+U cola%s		cola.ads		f04f2b6a EE NE OO PK
+
+D cola.ads		20240323174526 f04f2b6a cola%s
+D cola.adb		20240323175404 a96f311e cola%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s b [vacia cola 4 13 none]
+G c Z s b [poner cola 5 14 none]
+G c Z s b [quitar cola 6 14 none]
+X 1 cola.ads
+1K9*Cola 8l5 8e9 2|1b14 41l5 41t9
+3I9*Elemento<short_short_integer> 5r23 6r28 2|6r22 16r23 30r28
+4V13*Vacia{boolean} 2|11b13 14l8 14t13 22s10
+5U14*Poner 5>20 2|16b14 28l8 28t13
+5i20 E{3I9} 2|16b20 20r26
+6U14*Quitar 6<21 2|30b14 39l8 39t14
+6i21 E{3I9} 2|30b21 34m7
+X 2 cola.adb
+2R9 Nodo 3r26 4c9 8e17 19r20
+3P9 Enlace(2R9) 7r22 9r22 17r15 31r15
+6i10*Contenido{1|3I9} 20m13 34r18
+7p10*Siguiente{3P9} 21m13 25m17 35r24
+9p4 Primero{3P9} 13r14 23m10 33r16 35m7 36r10
+9p13 Ultimo{3P9} 25r10 27m7 37m10
+17p7 Nuevo{3P9} 19m7 20r7 21r7 23r21 25r30 27r17
+31p7 Viejo{3P9} 33m7 34r12 35r18
+
