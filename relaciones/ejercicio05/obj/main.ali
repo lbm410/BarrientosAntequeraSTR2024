@@ -13,7 +13,7 @@ RV NO_STANDARD_STORAGE_POOLS
 RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U main%b		main.adb		84c8bf40 NE OO SU
+U main%b		main.adb		c1d632f4 NE OO SU
 W ada%s			ada.ads			ada.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
@@ -33,7 +33,7 @@ D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
-D main.adb		20240323183816 d304779e main%b
+D main.adb		20240323191928 961afa2a main%b
 D numeros_complejos.ads	20240323183138 f9381db3 numeros_complejos%s
 D system.ads		20210520051136 2ffa5114 system%s
 D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
@@ -68,20 +68,20 @@ X 9 a-textio.ads
 506U14*Put_Line 13|17s4 18s4 19s4 20s4 21s4
 X 13 main.adb
 3U11*Main 3b11 24l5 24t9
-5r4 x{14|3R9} 9m4 11r12 12r13 13r12 14r11 15r22
-5r7 y{14|3R9} 10m4 11r16 12r17 13r16 14r15
+5r4 x{14|3R9} 9m4 11r12 12r13 13r22 14r16 15r22
+5r7 y{14|3R9} 10m4 11r16 12r17 13r26 14r20
 5r10 Suma{14|3R9} 11m4 17r38
 5r16 Resta{14|3R9} 12m4 18r39
-5r23 Mult{14|3R9} 13m4 19r48
-5r29 Div{14|3R9} 14m4 20r42
-5r34 Conjugado{14|3R9} 15m4 21r43
+5r23 Multiplicacion{14|3R9} 13m4 19r48
+5r39 Division{14|3R9} 14m4 20r42
+5r49 Conjugado{14|3R9} 15m4 21r43
 X 14 numeros_complejos.ads
 1K9*Numeros_Complejos 13|1w19 1r55 14|21e22
-3R9*Complejo 13|5r46 14|19e17
+3R9*Complejo 13|5r61 14|19e17
 5V14*"+"{3R9} 13|11s14
 6V14*"-"{3R9} 13|12s15
-7V14*"*"{3R9} 13|13s14
-8V14*"/"{3R9} 13|14s13
+7V14*"*"{3R9} 13|13s24
+8V14*"/"{3R9} 13|14s18
 9V13*Conj{3R9} 13|15s17
 12V13*Comp{3R9} 13|9s9 10s9
 13V13*numero_float{string} 13|17s25 18s26 19s35 20s29 21s30
