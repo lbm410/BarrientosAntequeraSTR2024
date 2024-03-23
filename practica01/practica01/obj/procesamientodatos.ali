@@ -40,7 +40,7 @@ D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
 D procesamientodatos.ads  20240322172636 5c90892b procesamientodatos%s
-D procesamientodatos.adb  20240322172604 4b055df3 procesamientodatos%b
+D procesamientodatos.adb  20240322173008 4b055df3 procesamientodatos%b
 D simulador.ads		20240320160720 cc0e6e58 simulador%s
 D system.ads		20210520051136 2ffa5114 system%s
 D s-conca3.ads		20210520051132 0b705ca5 system.concat_3%s
@@ -100,11 +100,11 @@ X 10 a-textio.ads
 X 11 a-tiflio.ads
 52U14*Get 16|67s7[3|20] 68s7[3|20] 69s7[3|20] 70s7[3|20]
 X 15 procesamientodatos.ads
-1K9*ProcesamientoDatos 13l5 13e23 16|5b14 116l5 116t23
+1K9*ProcesamientoDatos 13l5 13e23 16|5b14 115l5 115t23
 4f5*ST2_Opt{float}
 5f5*SD1_Opt{float}
 8A10*Vector(float)<integer> 16|16r30 17r26
-11U15*Procesamiento_Datos 16|7b14 114l8 114t27
+11U15*Procesamiento_Datos 16|7b14 113l8 113t27
 X 16 procesamientodatos.adb
 9i5 i{integer} 65m4 68r22 69r22 70r22 72r10 72r25 72r35 73r11 73r27 73r35
 . 73r43 73r60 74r11 74r27 75r11 75r35 75r45 78r14 79r80 81r70 81r141 85r33

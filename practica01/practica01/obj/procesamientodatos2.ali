@@ -12,7 +12,7 @@ RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_OBSOLESCENT_FEATURES
 
-U procesamientodatos%b	procesamientodatos.adb	a237f898 NE OO PK
+U procesamientodatos2%b	procesamientodatos2.adb	c8551b92 NE OO PK
 W ada%s			ada.ads			ada.ali
 W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
@@ -22,7 +22,7 @@ Z system.concat_3%s	s-conca3.adb		s-conca3.ali
 Z system.img_flt%s	s-imgflt.ads		s-imgflt.ali
 Z system.img_int%s	s-imgint.ads		s-imgint.ali
 
-U procesamientodatos%s	procesamientodatos.ads	101d991f EE NE OO PK
+U procesamientodatos2%s	procesamientodatos2.ads	b86916f5 EE NE OO PK
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 
 D ada.ads		20210520051132 76789da1 ada%s
@@ -39,8 +39,8 @@ D a-tiflio.ads		20210520051130 fcca4daa ada.text_io.float_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
-D procesamientodatos.ads  20240322174722 101d991f procesamientodatos%s
-D procesamientodatos.adb  20240322174710 315a9d12 procesamientodatos%b
+D procesamientodatos2.ads  20240323103528 b86916f5 procesamientodatos2%s
+D procesamientodatos2.adb  20240323103750 f34cf1f2 procesamientodatos2%b
 D simulador.ads		20240320160720 cc0e6e58 simulador%s
 D system.ads		20210520051136 2ffa5114 system%s
 D s-conca3.ads		20210520051132 0b705ca5 system.concat_3%s
@@ -67,14 +67,14 @@ D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
 D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
 D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
 G a e
-G c Z s b [procesamiento_datos procesamientodatos 14 14 none]
-G c Z s s [vectorIP procesamientodatos 11 9 none]
-G r c none [procesamiento_datos procesamientodatos 14 14 none] [tt_f simulador 12 13 none]
-G r c none [procesamiento_datos procesamientodatos 14 14 none] [sc1_f simulador 15 13 none]
-G r c none [procesamiento_datos procesamientodatos 14 14 none] [sc2_f simulador 16 13 none]
-G r c none [procesamiento_datos procesamientodatos 14 14 none] [st2_f simulador 11 13 none]
-G r c none [procesamiento_datos procesamientodatos 14 14 none] [st1_f simulador 10 13 none]
-G r c none [procesamiento_datos procesamientodatos 14 14 none] [sd1_f simulador 13 13 none]
+G c Z s b [procesamiento_datos_ej2 procesamientodatos2 14 14 none]
+G c Z s s [vectorIP procesamientodatos2 11 9 none]
+G r c none [procesamiento_datos_ej2 procesamientodatos2 14 14 none] [tt_f simulador 12 13 none]
+G r c none [procesamiento_datos_ej2 procesamientodatos2 14 14 none] [sc1_f simulador 15 13 none]
+G r c none [procesamiento_datos_ej2 procesamientodatos2 14 14 none] [sc2_f simulador 16 13 none]
+G r c none [procesamiento_datos_ej2 procesamientodatos2 14 14 none] [st2_f simulador 11 13 none]
+G r c none [procesamiento_datos_ej2 procesamientodatos2 14 14 none] [st1_f simulador 10 13 none]
+G r c none [procesamiento_datos_ej2 procesamientodatos2 14 14 none] [sd1_f simulador 13 13 none]
 X 1 ada.ads
 16K9*Ada 20e8 16|1r6 1r23 2r6 2r29
 X 3 a-flteio.ads
@@ -102,15 +102,15 @@ X 10 a-textio.ads
 506U14*Put_Line 16|53s4 99s10 100s10
 X 11 a-tiflio.ads
 52U14*Get 16|70s7[3|20] 71s7[3|20] 72s7[3|20] 73s7[3|20]
-X 15 procesamientodatos.ads
-1K9*ProcesamientoDatos 16l5 16e23 16|5b14 135l5 135t23
+X 15 procesamientodatos2.ads
+1K9*ProcesamientoDatos2 16l5 16e24 16|5b14 135l5 135t24
 4f4*i{float}
 4f7*k{float}
 7f4*ST2_Opt{float}
 8f4*SD1_Opt{float}
 11A9*Vector(float)<integer>
-14U14*Procesamiento_Datos 16|7b14 133l8 133t27
-X 16 procesamientodatos.adb
+14U14*Procesamiento_Datos_Ej2 16|7b14 133l8 133t31
+X 16 procesamientodatos2.adb
 10i4 i{integer} 68m4 71r22 72r22 73r22 75r10 75r25 75r35 77r11 77r27 77r34
 . 77r42 77r59 78r11 78r36 78r46 80r11 80r27 80r35 80r43 80r53 80r60 81r11
 . 81r27 82r11 82r27 82r35 82r45 85r14 86r14 87r17 88r14 91r14 92r14 93r17

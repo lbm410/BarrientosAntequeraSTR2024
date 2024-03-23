@@ -33,6 +33,7 @@ package body ada_main is
    E094 : Short_Integer; pragma Import (Ada, E094, "ada__text_io_E");
    E148 : Short_Integer; pragma Import (Ada, E148, "simulador_E");
    E146 : Short_Integer; pragma Import (Ada, E146, "procesamientodatos_E");
+   E154 : Short_Integer; pragma Import (Ada, E154, "procesamientodatos2_E");
 
    Sec_Default_Sized_Stacks : array (1 .. 1) of aliased System.Secondary_Stack.SS_Stack (System.Parameters.Runtime_Default_Sec_Stack_Size);
 
@@ -212,6 +213,7 @@ package body ada_main is
       E094 := E094 + 1;
       E148 := E148 + 1;
       E146 := E146 + 1;
+      E154 := E154 + 1;
    end adainit;
 
    procedure Ada_Main_Program;
@@ -251,6 +253,7 @@ package body ada_main is
 --  BEGIN Object file/option list
    --   C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio01\obj\simulador.o
    --   C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio01\obj\procesamientodatos.o
+   --   C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio01\obj\procesamientodatos2.o
    --   C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio01\obj\main.o
    --   -LC:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio01\obj\
    --   -LC:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\practica01\practica01ejercicio01\obj\

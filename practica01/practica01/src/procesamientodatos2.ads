@@ -1,4 +1,4 @@
-package ProcesamientoDatos is
+package ProcesamientoDatos2 is
 
    -- Definición de las variables
    i, k : Float;
@@ -11,6 +11,6 @@ package ProcesamientoDatos is
    type Vector is array(Integer range <>) of Float;
 
    -- Procedimiento de procesamiento de datos
-   procedure Procesamiento_Datos;
+   procedure Procesamiento_Datos_Ej2;
 
-end ProcesamientoDatos;
+end ProcesamientoDatos2;

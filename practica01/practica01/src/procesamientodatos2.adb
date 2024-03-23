@@ -2,9 +2,9 @@ with Ada.Text_IO; use Ada.Text_IO;
 with Ada.Float_Text_IO; use Ada.Float_Text_IO;
 with Simulador; use Simulador;
 
-package body ProcesamientoDatos is
+package body ProcesamientoDatos2 is
 
-   procedure Procesamiento_Datos is
+   procedure Procesamiento_Datos_Ej2 is
       
    -- Variables utilizadas para el contador
    i : Integer;
@@ -36,7 +36,7 @@ package body ProcesamientoDatos is
    Create(output, Out_File, "output_ejercicio2.txt");
 
    -- Apertura del archivo de registro de alarmas
-   Create(alarm_log, Out_File, "alarm_log.txt");
+   Create(alarm_log, Out_File, "alarm_log_ej2.txt");
 
    -- Encabezado para el archivo de salida
    Put(output, "k"); Put(output, ASCII.HT);
@@ -130,6 +130,6 @@ package body ProcesamientoDatos is
    Close(output);
    Close(alarm_log); -- Cerrar el archivo de registro de alarmas
       
-   end Procesamiento_Datos;
+   end Procesamiento_Datos_Ej2;
      
-end ProcesamientoDatos;
+end ProcesamientoDatos2;

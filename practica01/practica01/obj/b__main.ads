@@ -40,7 +40,7 @@ package ada_main is
    pragma Export (C, main, "main");
 
    type Version_32 is mod 2 ** 32;
-   u00001 : constant Version_32 := 16#ccebe77a#;
+   u00001 : constant Version_32 := 16#a405d408#;
    pragma Export (C, u00001, "mainB");
    u00002 : constant Version_32 := 16#2e11c0b1#;
    pragma Export (C, u00002, "system__standard_libraryB");
@@ -344,10 +344,14 @@ package ada_main is
    pragma Export (C, u00151, "system__concat_2B");
    u00152 : constant Version_32 := 16#2d5a86c4#;
    pragma Export (C, u00152, "system__concat_2S");
-   u00153 : constant Version_32 := 16#eca5ecae#;
-   pragma Export (C, u00153, "system__memoryB");
-   u00154 : constant Version_32 := 16#76873720#;
-   pragma Export (C, u00154, "system__memoryS");
+   u00153 : constant Version_32 := 16#c8551b92#;
+   pragma Export (C, u00153, "procesamientodatos2B");
+   u00154 : constant Version_32 := 16#b86916f5#;
+   pragma Export (C, u00154, "procesamientodatos2S");
+   u00155 : constant Version_32 := 16#eca5ecae#;
+   pragma Export (C, u00155, "system__memoryB");
+   u00156 : constant Version_32 := 16#76873720#;
+   pragma Export (C, u00156, "system__memoryS");
 
    --  BEGIN ELABORATION ORDER
    --  ada%s
@@ -503,6 +507,8 @@ package ada_main is
    --  simulador%b
    --  procesamientodatos%s
    --  procesamientodatos%b
+   --  procesamientodatos2%s
+   --  procesamientodatos2%b
    --  main%b
    --  END ELABORATION ORDER
 
