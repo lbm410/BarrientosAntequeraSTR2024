@@ -1,0 +1,83 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_SECONDARY_STACK
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U numeros_complejos%b	numeros_complejos.adb	c0d18fb8 NE OO PK
+Z system.concat_4%s	s-conca4.adb		s-conca4.ali
+Z system.img_flt%s	s-imgflt.ads		s-imgflt.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U numeros_complejos%s	numeros_complejos.ads	f9381db3 EE NE OO PK
+
+D numeros_complejos.ads	20240323183138 f9381db3 numeros_complejos%s
+D numeros_complejos.adb	20240323191726 39e9920b numeros_complejos%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-conca4.ads		20210520051132 7e642b20 system.concat_4%s
+D s-imager.ads		20210520051134 500b11a9 system.image_r%s
+D s-imageu.ads		20210520051134 525c30c6 system.image_u%s
+D s-imgflt.ads		20210520051134 78689de8 system.img_flt%s
+D s-imguns.ads		20210520051134 0e4da2ac system.img_uns%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-powflt.ads		20210520051134 46f7a1b9 system.powten_flt%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+G a e
+G c Z s b [Oadd numeros_complejos 5 13 none]
+G c Z s b [Osubtract numeros_complejos 6 13 none]
+G c Z s b [Omultiply numeros_complejos 7 13 none]
+G c Z s b [Odivide numeros_complejos 8 13 none]
+G c Z s b [conj numeros_complejos 9 13 none]
+G c Z s b [p_real numeros_complejos 10 13 none]
+G c Z s b [p_imag numeros_complejos 11 13 none]
+G c Z s b [comp numeros_complejos 12 13 none]
+G c Z s b [numero_float numeros_complejos 13 13 none]
+G c Z s s [complejoIP numeros_complejos 15 14 none]
+X 1 numeros_complejos.ads
+1K9*Numeros_Complejos 15E14 21l5 21e22 2|1b14 55l5 55t22
+3R9*Complejo 5r24 5r41 6r24 6r41 7r24 7r41 8r24 8r41 9r22 9r39 10r24 10r41
+. 11r24 11r41 12r39 13r30 15c14 19e17 2|3r25 3r42 5r14 8r25 8r42 10r14 14r25
+. 14r42 18r15 21r25 21r42 25r14 28r23 28r40 30r14 33r25 33r42 38r25 38r42
+. 42r40 43r11 50r31
+5V14*"+"{3R9} 5>17 5>20 2|3b14 6l9 6t11
+5r17 X{3R9} 2|3b18 5r24 5r45
+5r20 Y{3R9} 2|3b21 5r35 5r56
+6V14*"-"{3R9} 6>17 6>20 2|8b14 12l9 12t11
+6r17 X{3R9} 2|8b18 10r24 10r45
+6r20 Y{3R9} 2|8b21 10r35 10r56
+7V14*"*"{3R9} 7>17 7>20 2|14b14 19l9 19t11
+7r17 X{3R9} 2|14b18 15r25 15r47 16r25 16r47
+7r20 Y{3R9} 2|14b21 15r36 15r58 16r36 16r58
+8V14*"/"{3R9} 8>17 8>20 2|21b14 26l9 26t11
+8r17 X{3R9} 2|21b18 22r26 22r37 22r48 23r26 23r48
+8r20 Y{3R9} 2|21b21 22r59 22r72 22r88 23r37 23r59 23r72 23r88
+9V13*Conj{3R9} 9>18 2|28b13 31l8 31t12
+9r18 X{3R9} 2|28b19 30r34 30r55
+10V13*P_Real{3R9} 10>20 2|33b13 36l8 36t14
+10r20 X{3R9} 2|33b21 35r19
+11V13*P_Imag{3R9} 11>20 2|38b13 41l8 41t14
+11r20 X{3R9} 2|38b21 40r19
+12V13*Comp{3R9} 12>18 12>21 2|35s14 40s14 42b13 48l8 48t12
+12f18 R{float} 2|42b19 45r19
+12f21 I{float} 2|42b22 46r19
+13V13*numero_float{string} 13>26 2|50b13 53l8 53t20
+13r26 X{3R9} 2|50b27 52r26 52r58
+17f10*P_Real{float} 2|5r26 5r37 10r26 10r37 15r27 15r38 16r27 16r38 18m25
+. 22r28 22r39 22r74 23r39 23r50 23r74 25m24 30m24 30r36 35r21 45m9 52r28
+18f10*P_Imag{float} 2|5r47 5r58 10r47 10r58 15r49 15r60 16r49 16r60 18m43
+. 22r50 22r61 22r90 23r28 23r61 23r90 25m42 30m44 30r57 40r21 46m9 52r60
+X 2 numeros_complejos.adb
+15f7 P_Real{float} 18r35
+16f7 P_Imag{float} 18r53
+22f7 P_Real{float} 25r34
+23f7 P_Imag{float} 25r52
+43r7 C{1|3R9} 45m7 46m7 47r14
+

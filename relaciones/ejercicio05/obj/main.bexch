@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\relaciones\ejercicio05\ejercicio05.gpr
+20240323181250 9ec79ccbd48c621620f6984c1b77006c
+[BOUND OBJECT FILES]
+C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\relaciones\ejercicio05\obj\numeros_complejos.o
+C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\relaciones\ejercicio05\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\relaciones\ejercicio05\obj\
+-LC:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\relaciones\ejercicio05\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

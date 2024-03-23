@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Locations >
   <Project>
-    <vfs_file />
+    <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio04\ejercicio04.gpr</vfs_file>
     <file_marker column=" 1" line=" 1" >
       <vfs_project />
       <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio03\src\ejercicio1.adb</vfs_file>
@@ -402,9 +402,13 @@
       <vfs_project>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio04\ejercicio04.gpr</vfs_project>
       <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio04\src\cola.ads</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 1" line=" 5" >
+    <file_marker column=" 1" line=" 5" >
       <vfs_project>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio04\ejercicio04.gpr</vfs_project>
       <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio04\src\cola.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 32" line=" 16" >
+      <vfs_project>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio04\ejercicio04.gpr</vfs_project>
+      <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio04\src\main.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>
