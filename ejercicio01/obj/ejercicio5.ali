@@ -1,5 +1,4 @@
 V "GNAT Lib v2021"
-M P W=b
 A -gnatA
 A -mtune=generic
 A -march=x86-64
@@ -9,17 +8,16 @@ RN
 RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U main%b		main.adb		a405d408 NE OO SU
+U ejercicio5%b		ejercicio5.adb		ceac8c4c NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+
+U ejercicio5%s		ejercicio5.ads		08beec93 EE NE OO PK
 W ada%s			ada.ads			ada.ali
-W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
-W procesamientodatos%s	procesamientodatos.adb	procesamientodatos.ali
-W procesamientodatos2%s	procesamientodatos2.adb	procesamientodatos2.ali
 
 D ada.ads		20210520051132 76789da1 ada%s
 D a-except.ads		20210520051128 946f3014 ada.exceptions%s
-D a-flteio.ads		20210520051128 e18a47a0 ada.float_text_io%s
 D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
 D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
 D a-string.ads		20210520051130 90ac6797 ada.strings%s
@@ -27,13 +25,11 @@ D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
 D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
 D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
 D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
-D a-tiflio.ads		20210520051130 fcca4daa ada.text_io.float_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D ejercicio5.ads	20240323124414 a64a39fe ejercicio5%s
+D ejercicio5.adb	20240323124512 68e6b5b2 ejercicio5%b
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
-D main.adb		20240323103630 0f82d91b main%b
-D procesamientodatos.ads  20240322172636 5c90892b procesamientodatos%s
-D procesamientodatos2.ads  20240323103528 b86916f5 procesamientodatos2%s
 D system.ads		20210520051136 2ffa5114 system%s
 D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
 D s-exctab.ads		20210520051132 54135002 system.exception_table%s
@@ -51,22 +47,15 @@ D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
 D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
 D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
 G a e
-G c Z b b [main standard 6 11 none]
-G r c none [main standard 6 11 none] [procesamiento_datos_ej2 procesamientodatos2 14 14 none]
-G r c none [main standard 6 11 none] [procesamiento_datos procesamientodatos 11 15 none]
+G c Z s b [operaciones_ejercicio5 ejercicio5 7 14 none]
 X 1 ada.ads
-16K9*Ada 20e8 15|1r6 1r29 2r6 2r23
-X 3 a-flteio.ads
-20K13*Float_Text_IO[11|46] 15|1w10 1r33
-X 10 a-textio.ads
-58K13*Text_IO 725e16 15|2w10 2r27
-506U14*Put_Line 15|14s4
-X 15 main.adb
-6U11*Main 6b11 16l5 16t9
-X 16 procesamientodatos.ads
-1K9*ProcesamientoDatos 15|3w6 3r30 16|13e23
-11U15*Procesamiento_Datos 15|12s4
-X 17 procesamientodatos2.ads
-1K9*ProcesamientoDatos2 15|4w6 4r31 17|16e24
-14U14*Procesamiento_Datos_Ej2 15|10s4
+16K9*Ada 20e8 11|1r6 1r23
+X 9 a-textio.ads
+58K13*Text_IO 725e16 11|1w10 1r27
+262U14*New_Line 12|10s7
+506U14*Put_Line 12|6s7 8s7
+X 11 ejercicio5.ads
+3K9*Ejercicio5 9l5 9e15 12|1b14 14l5 14t15
+5a4*Constante_Cadena{string} 12|8r48
+7U14*Operaciones_Ejercicio5 12|3b14 12l8 12t30
 

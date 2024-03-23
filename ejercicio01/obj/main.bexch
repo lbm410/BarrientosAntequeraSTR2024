@@ -1,0 +1,25 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio01\ejercicio01.gpr
+20240323115610 717822dc7324f7d2ea5a939b985c9ac0
+[BOUND OBJECT FILES]
+C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio01\obj\ejercicio1.o
+C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio01\obj\ejercicio2.o
+C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio01\obj\ejercicio3.o
+C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio01\obj\ejercicio4.o
+C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio01\obj\ejercicio5.o
+C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio01\obj\ejercicio6.o
+C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio01\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio01\obj\
+-LC:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio01\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

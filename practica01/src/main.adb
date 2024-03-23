@@ -7,10 +7,8 @@ procedure Main is
 
 begin
 
-   Procesamiento_Datos_Ej2;
-
    Procesamiento_Datos;
 
-   Put_Line("Ejecución Finalizada con Éxito!");
+   -- Procesamiento_Datos_Ej2; -- Descomentar y comentar el de arriba para ejecutarlo (O cambiar de orden)
 
 end Main;

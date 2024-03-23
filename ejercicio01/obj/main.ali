@@ -1,0 +1,90 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U main%b		main.adb		12984c94 NE OO SU
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ejercicio1%s		ejercicio1.adb		ejercicio1.ali
+W ejercicio2%s		ejercicio2.adb		ejercicio2.ali
+W ejercicio3%s		ejercicio3.adb		ejercicio3.ali
+W ejercicio4%s		ejercicio4.adb		ejercicio4.ali
+W ejercicio5%s		ejercicio5.adb		ejercicio5.ali
+W ejercicio6%s		ejercicio6.adb		ejercicio6.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-charac.ads		20210520051128 2d3ec45b ada.characters%s
+D a-chlat1.ads		20210520051128 66457d31 ada.characters.latin_1%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051128 bf4f806b ada.finalization%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-strmap.ads		20210520051130 5a88892a ada.strings.maps%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-strunb.ads		20210520051130 03325227 ada.strings.unbounded%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D ejercicio1.ads	20240323122230 f09037ca ejercicio1%s
+D ejercicio2.ads	20240323122710 aec7c7c1 ejercicio2%s
+D ejercicio3.ads	20240323122942 070a0989 ejercicio3%s
+D ejercicio4.ads	20240323123516 772405df ejercicio4%s
+D ejercicio5.ads	20240323124414 a64a39fe ejercicio5%s
+D ejercicio6.ads	20240323125918 86579847 ejercicio6%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D main.adb		20240323124750 1cfc1170 main%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-atocou.ads		20210520051132 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-finroo.ads		20210520051132 4ff27390 system.finalization_root%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-stratt.ads		20210520051134 7bdda3fa system.stream_attributes%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [main standard 8 11 none]
+G r c none [main standard 8 11 none] [operaciones_ejercicio1 ejercicio1 13 14 none]
+G r c none [main standard 8 11 none] [mostrar_semaforo_ejercicio2 ejercicio2 7 14 none]
+G r c none [main standard 8 11 none] [operaciones_ejercicio3 ejercicio3 11 14 none]
+G r c none [main standard 8 11 none] [operaciones_ejercicio5 ejercicio5 7 14 none]
+G r c none [main standard 8 11 none] [imprimir_ejercicio6 ejercicio6 30 14 none]
+X 16 ejercicio1.ads
+3K9*Ejercicio1 15e15 24|1w6 1r22
+13U14*Operaciones_Ejercicio1 24|12s4
+X 17 ejercicio2.ads
+3K9*Ejercicio2 9e15 24|2w6 2r22
+5n38*Verde{5E9} 24|14r32
+7U14*Mostrar_Semaforo_Ejercicio2 24|14s4
+X 18 ejercicio3.ads
+3K9*Ejercicio3 13e15 24|3w6 3r22
+11U14*Operaciones_Ejercicio3 24|16s4
+X 19 ejercicio4.ads
+3K9*Ejercicio4 15e15 24|4w6 4r22
+X 20 ejercicio5.ads
+3K9*Ejercicio5 9e15 24|5w6 5r22
+7U14*Operaciones_Ejercicio5 24|20s4
+X 21 ejercicio6.ads
+4K9*Ejercicio6 32e15 24|6w6 6r22
+30U14*Imprimir_Ejercicio6 24|22s4
+X 24 main.adb
+8U11*Main 8b11 24l5 24t9
+
