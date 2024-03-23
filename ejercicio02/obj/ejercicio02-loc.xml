@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Locations >
   <Project>
-    <vfs_file />
+    <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio02\ejercicio02.gpr</vfs_file>
     <file_marker column=" 1" line=" 1" >
       <vfs_project />
       <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio01\src\ejercicio1.adb</vfs_file>
@@ -334,7 +334,7 @@
       <vfs_project>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio02\ejercicio02.gpr</vfs_project>
       <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio02\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 7" >
+    <file_marker column=" 4" line=" 8" >
       <vfs_project>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio02\ejercicio02.gpr</vfs_project>
       <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio02\src\main.adb</vfs_file>
     </file_marker>
@@ -342,7 +342,7 @@
       <vfs_project>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio02\ejercicio02.gpr</vfs_project>
       <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio02\src\ejercicio1.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 7" >
+    <file_marker column=" 19" line=" 8" >
       <vfs_project>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio02\ejercicio02.gpr</vfs_project>
       <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio02\src\main.adb</vfs_file>
     </file_marker>
@@ -350,9 +350,45 @@
       <vfs_project>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio02\ejercicio02.gpr</vfs_project>
       <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio02\src\ejercicio1.ads</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 4" line=" 3" >
+    <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio02\ejercicio02.gpr</vfs_project>
       <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio02\src\ejercicio1_opcional.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio02\ejercicio02.gpr</vfs_project>
+      <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio02\src\ejercicio1_opcional.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio02\ejercicio02.gpr</vfs_project>
+      <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio02\src\ejercicio1_opcional.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio02\ejercicio02.gpr</vfs_project>
+      <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio02\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 28" line=" 10" >
+      <vfs_project>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio02\ejercicio02.gpr</vfs_project>
+      <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio02\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 51" line=" 2" >
+      <vfs_project>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio02\ejercicio02.gpr</vfs_project>
+      <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio02\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 6" >
+      <vfs_project>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio02\ejercicio02.gpr</vfs_project>
+      <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio02\src\ejercicio1_opcional.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2021\lib\gcc\x86_64-w64-mingw32\10.3.1\adainclude\a-textio.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 479" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2021\lib\gcc\x86_64-w64-mingw32\10.3.1\adainclude\a-textio.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio02\ejercicio02.gpr</vfs_project>
+      <vfs_file>C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio02\src\ejercicio1.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>

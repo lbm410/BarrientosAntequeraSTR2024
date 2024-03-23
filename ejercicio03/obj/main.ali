@@ -1,0 +1,78 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U main%b		main.adb		0820bbb8 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ejercicio1%s		ejercicio1.adb		ejercicio1.ali
+W matriz_transpuesta%s	matriz_transpuesta.adb	matriz_transpuesta.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D ejercicio1.ads	20240323161024 17aff749 ejercicio1%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D main.adb		20240323162924 4ccffe8c main%b
+D matriz_transpuesta.ads  20240323160400 fdb46710 matriz_transpuesta%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [main standard 5 11 none]
+G r c none [main standard 5 11 none] [leer_matriz ejercicio1 4 14 none]
+G r c none [main standard 5 11 none] [transponer matriz_transpuesta 4 14 none]
+G r c none [main standard 5 11 none] [escribir_matriz ejercicio1 5 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 14|1r6 1r23
+X 9 a-textio.ads
+58K13*Text_IO 725e16 14|1w10 1r27
+65P9*File_Type 14|10r13
+67n32*Out_File{67E9} 14|14r19
+97U14*Create 14|14s4
+127U14*Close 14|20s4
+X 11 ejercicio1.ads
+1K9*Ejercicio1 6e15 14|2w6 7r9 16r4 18r4
+2A9*Matrix(integer)<integer><integer> 14|7r20
+4U14*Leer_Matriz 14|16s15
+5U14*Escribir_Matriz 14|18s15
+X 14 main.adb
+5U11*Main 5b11 22l5 22t9
+7a4 M2{11|2A9} 16m40 18r45
+8a4 M{15|2A9} 17m34 17r34
+10p4 output{9|65P9} 14m11 14r11 20m10 20r10
+X 15 matriz_transpuesta.ads
+1K9*Matriz_Transpuesta 14|3w6 8r8 17r4 15|5e23
+2A9*Matrix(integer)<integer><integer> 14|8r27
+4U14*Transponer 14|17s23
+

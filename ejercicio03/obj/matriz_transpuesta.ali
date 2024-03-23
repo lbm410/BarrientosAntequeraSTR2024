@@ -1,0 +1,30 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U matriz_transpuesta%b	matriz_transpuesta.adb	48c2a7b9 NE OO PK
+
+U matriz_transpuesta%s	matriz_transpuesta.ads	fdb46710 EE NE OO PK
+
+D matriz_transpuesta.ads  20240323160400 fdb46710 matriz_transpuesta%s
+D matriz_transpuesta.adb  20240323160412 b576c0a9 matriz_transpuesta%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s b [transponer matriz_transpuesta 4 14 none]
+G c Z s s [matrixIP matriz_transpuesta 2 9 none]
+X 1 matriz_transpuesta.ads
+1K9*Matriz_Transpuesta 5l5 5e23 2|1b14 17l5 17t23
+2A9*Matrix(integer)<integer><integer> 4r36 2|3r36
+4U14*Transponer 4=25 2|3b14 15l8 15t18
+4a25 M{2A9} 2|3b25 6r16 7r19 9r24 10m16 10r27 11m16
+X 2 matriz_transpuesta.adb
+4i7 Temp{integer} 9m16 11r27
+6i11 I{integer} 8r20 9r26 10r18 10r32 11r21
+7i14 J{integer} 8r16 9r29 10r21 10r29 11r18
+

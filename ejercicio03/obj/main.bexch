@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio03\ejercicio03.gpr
+20240323131420 751267914c1224a9f4b12a7bd9258df7
+[BOUND OBJECT FILES]
+C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio03\obj\ejercicio1.o
+C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio03\obj\matriz_transpuesta.o
+C:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio03\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio03\obj\
+-LC:\Users\Lucas\Desktop\STR\BarrientosAntequeraSTR2024\ejercicio03\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
